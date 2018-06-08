@@ -1,0 +1,136 @@
+fieldset{margin:1% auto;}
+
+.box-mensagem-crud{margin-top: 10px;}
+
+.msg-erro{color: red;}
+
+/* INICIO REGRAS PAINEL*/
+* 	{
+		box-sizing: border-box;
+	}
+
+body 	{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+/*HEADER*/
+.box-pagina	{
+				width: 1200;
+				height: 700;
+				padding: 0px;
+				margin: 0px 15px;
+			}
+
+.box-cabecalho	{
+					width: 1200px;
+					height: 250px;
+					background-color: #1E90FF;
+					padding: 0px;
+					text-align: center;
+					font-size: 35px;
+			    	opacity: .7;
+			    	vertical-align: middle;
+				}
+.box-logo	{
+				width: 200px;
+				margin-top: 30px;
+				margin-left: 10px;
+				float: left;
+					
+			}
+
+.obj-select	{
+				width: 500px;
+				height: 40px;
+				border-radius: 10px;
+				border: none;
+				display: inline;
+				text-transform: uppercase;
+				text-align: center;
+				font-size: 15px;
+				position: relative;
+				margin-top: 100px;
+				margin-right: 200px;
+			}
+
+.nav-categ	{
+				width: 1200px;
+				height: 50px;
+				padding: 0px;
+				background-color: white;
+				font-size: 20px;
+				text-align: center;
+				word-spacing: 10px;
+				margin-top: 15px;
+        	}
+
+.caixa-opc	{
+				width: 200px;
+				height: 35px;
+				margin-top: 15px;
+				background-color: white;
+				display: inline-block;
+				text-align: center;
+				text-transform: uppercase;
+				padding: 0px;
+			}	
+/*FIM REGRAS HEADER*/
+
+/*BOX-DIREITO*/
+.box-direito	{
+					width: 300px;
+					height: auto;
+					margin-top: 2px;
+					margin-left: 2px;
+					border-color: #1E90FF;
+					display: block;
+				}
+
+.box-time	{
+				width: 280px;
+				height: 100px;
+				margin: 5px 5px 5px 5px;
+				border-style: solid;
+				border-radius: 5px 5px;
+				border-color: #1E90FF;
+				margin: 5px 5px 5px 5px;
+			}
+
+.box-imgtime	{
+					width: 80px;
+					height: 80px;
+					margin: 5px 10px;
+					position: relative;
+				}
+
+.conf-img	{
+				vertical-align: top;
+				max-width: 200px;
+				max-height: 200px;
+				width: 75px;
+				height: 75px;
+				border-radius: 2px 2px;
+							}
+
+.box-dettime	{
+					width: 170px;
+					height: 80px;
+					margin-left: 100px;
+					margin-top: -83px;
+					position: absolute;
+					text-align: left;
+				}
+
+.box-nmtime	{
+				font-size: 75%;
+				font-weight: bold;
+			}
+
+.box-rptime	{
+				font-size: 60%;
+				font-weight: bold;
+			}
+.box-pontos	{
+				font-size: 90%;
+				font-weight: bold;
+				color: red;
+			}
